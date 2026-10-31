@@ -12,3 +12,4 @@
 
 ## Cara menjalankan
 python latihan1_biodata.py
+python latihan2_persegi_panjang.py
