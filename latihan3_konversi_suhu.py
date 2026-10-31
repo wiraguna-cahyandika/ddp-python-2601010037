@@ -1,4 +1,5 @@
 # Program Konversi Suhu dari Celcius ke Fahrenheit dan Kelvin
+
 C = int(input("Masukkan suhu dalam Celcius: "))
 
 F = (C * 9/5) + 32
