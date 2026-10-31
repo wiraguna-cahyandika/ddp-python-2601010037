@@ -11,5 +11,8 @@
 4. latihan4_total_belanja.py: menghitung total belanja dengan PPN 11%
 
 ## Cara menjalankan
-python latihan1_biodata.py
-python latihan2_persegi_panjang.py
+Untuk menjalankan masing-masing program latihan, ketik perintah berikut di terminal:
+1. Latihan 1: `python latihan1_biodata.py`
+2. Latihan 2: `python latihan2_persegi_panjang.py`
+3. Latihan 3: `python latihan3_konversi_suhu.py`
+4. Latihan 4: `python latihan4_total_belanja.py`
