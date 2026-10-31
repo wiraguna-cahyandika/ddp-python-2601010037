@@ -1,4 +1,5 @@
 # Program menghitung total belanja
+
 nama_barang = str(input("Masukkan nama barang: "))
 harga_satuan = float(input("Masukkan harga barang: "))
 jumlah_barang = int(input("Masukkan jumlah barang: "))
