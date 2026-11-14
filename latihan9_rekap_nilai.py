@@ -1,8 +1,8 @@
 jumlah_mhs = int(input("Jumlah mahasiswa: "))
 total = 0
 jumlah_lulus = 0
-nilai_terkecil = float("inf")
 nilai_terbesar = float("-inf")
+nilai_terkecil = float("inf")
 
 for k in range(1, jumlah_mhs + 1):
     nilai = int(input(f"Nilai mahasiswa ke-{k}: "))
@@ -10,8 +10,10 @@ for k in range(1, jumlah_mhs + 1):
         print("Nilai harus antara 0 dan 100")
         nilai = int(input(f"Nilai mahasiswa ke-{k}: "))
     total += nilai
-    nilai_terkecil = min(nilai_terkecil, nilai)
-    nilai_terbesar = max(nilai_terbesar, nilai)
+    if nilai > nilai_terbesar:
+        nilai_terbesar = nilai
+    if nilai < nilai_terkecil:
+        nilai_terkecil = nilai
     if nilai >= 60:
         jumlah_lulus += 1
 
